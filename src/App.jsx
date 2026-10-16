@@ -1,15 +1,14 @@
-import Header from './components/Header';
-import Footer from './components/Footer';
+import Inicio from './components/Inicio';
+import Sobre from './components/Sobre';
+import ContadorRuim from './components/ContadorRuim';
+import ContadorBom from './components/ContadorBom';
 
 export default function App() {
   return (
-   <>
-     <Header title="My App" />
-     <main>
-     <p>Welcome to my app!</p>
-     </main>
-     <Footer year="2026" companyName="Projeto Front End-Thiago" />
-   </>    
+    <>
+     <ContadorRuim tipo="Contador Ruim" />
+     <ContadorBom tipo="Contador Bom" />
+    </>
   );
 }
 
